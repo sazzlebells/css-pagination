@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="css/pagination.css">
 
     <!-- favicon -->
-    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAJ3/ADKwFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAABEAAAAAAAAAEQAAAAAAAAEREAAAAAAAAREQAAAAAAABERAAAAAAABEREQAAAAAAERERAAAAAAEREREQAAAAARERERAAAAAREREREQAAAAEREREQAAAAAAIiIAAAAAAAIiIiAAAAAAICIiAgAAAAIAIAIAIAD+fwAA/n8AAP5/AAD8PwAA/D8AAPw/AAD4HwAA+B8AAPAPAADwDwAA4AcAAPAPAAD8PwAA+B8AAPQvAADttwAA" rel="icon" type="image/x-icon" />
+    <link
+        href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAJ3/ADKwFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAABEAAAAAAAAAEQAAAAAAAAEREAAAAAAAAREQAAAAAAABERAAAAAAABEREQAAAAAAERERAAAAAAEREREQAAAAARERERAAAAAREREREQAAAAEREREQAAAAAAIiIAAAAAAAIiIiAAAAAAICIiAgAAAAIAIAIAIAD+fwAA/n8AAP5/AAD8PwAA/D8AAPw/AAD4HwAA+B8AAPAPAADwDwAA4AcAAPAPAAD8PwAA+B8AAPQvAADttwAA"
+        rel="icon" type="image/x-icon" />
     <title>Mitrais Carrot</title>
 </head>
 
@@ -41,61 +43,94 @@
                 <p>Training & Development</p>
             </div>
             <div class="box2">
-                <img class="carrot-img" src="https://carrot.mitrais.com/carrot/assets/img/mc-icon-carrot.png" alt="carrot" width="120px">
+                <img class="carrot-img" src="https://carrot.mitrais.com/carrot/assets/img/mc-icon-carrot.png"
+                    alt="carrot" width="120px">
                 <h5>My 2022 Basket: 50</h5>
             </div>
             <div class="box3">
-                <img class="carrot-img" src="https://carrot.mitrais.com/carrot/assets/img/mc-icon-carrot.png" alt="carrot" width="120px">
+                <img class="carrot-img" src="https://carrot.mitrais.com/carrot/assets/img/mc-icon-carrot.png"
+                    alt="carrot" width="120px">
                 <h5>My Carrot History</h5>
             </div>
         </div>
         <h2>Bazaar</h2>
 
         <!-- bazaar -->
-        <div class="grid-container">
+        <div class="grid-container" id="page1">
             <div class="item1">
                 <img src="assets/item1.jpg">
-                <h6>Item 1</h6>
-                <p>50 <i>carrot(s)</i></p>
+                <h5>Item 1</h5>
+                <h6>50 <i>carrot(s)</i></h6>
             </div>
             <div class="item2">
                 <img src="assets/item2.jpg">
-                <h6>Item 2</h6>
-                <p>50 <i>carrot(s)</i></p>
+                <h5>Item 2</h5>
+                <h6>50 <i>carrot(s)</i></h6>
             </div>
             <div class="item3">
                 <img src="assets/item3.jpg">
-                <h6>Item 3</h6>
-                <p>50 <i>carrot(s)</i></p>
+                <h5>Item 3</h5>
+                <h6>50 <i>carrot(s)</i></h6>
             </div>
             <div class="item4">
                 <img src="assets/item4.jpg">
-                <h6>Item 4</h6>
-                <p>50 <i>carrot(s)</i></p>
+                <h5>Item 4</h5>
+                <h6>50 <i>carrot(s)</i></h6>
             </div>
             <div class="item5">
                 <img src="assets/item5.jpg">
-                <h6>Item 5</h6>
-                <p>50 <i>carrot(s)</i></p>
+                <h5>Item 5</h5>
+                <h6>50 <i>carrot(s)</i></h6>
+            </div>
+            <div class="item6">
+                <img src="assets/item6.jpg">
+                <h5>Item 6</h5>
+                <h6>50 <i>carrot(s)</i></h6>
+            </div>
+        </div>
+        <div class="grid-container" id="page2">
+            <div class="item7">
+                <img src="assets/item7.jpg">
+                <h5>Item 7</h5>
+                <h6>50 <i>carrot(s)</i></h6>
+            </div>
+            <div class="item8">
+                <img src="assets/item8.jpg">
+                <h5>Item 8</h5>
+                <h6>50 <i>carrot(s)</i></h6>
+            </div>
+            <div class="item9">
+                <img src="assets/item9.jpg">
+                <h5>Item 9</h5>
+                <h6>50 <i>carrot(s)</i></h6>
+            </div>
+            <div class="item10">
+                <img src="assets/item10.jpg">
+                <h5>Item 10</h5>
+                <h6>50 <i>carrot(s)</i></h6>
             </div>
         </div>
 
         <!-- pagination -->
         <div class="pagination">
             <a href="#">&laquo;</a>
-            <a href="#">1</a>
-            <a href="#" class="active">2</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
-            <a href="#">5</a>
-            <a href="#">6</a>
+            <a href="#" class="active">1</a>
+            <a href="#">
+                2
+            </a>
             <a href="#">&raquo;</a>
-          </div>
+        </div>
+
+        <label for="hider">Hide</label>
+        <input type="checkbox" id="hider">
+        <div id="sidebar">foo</div>
+
+        <div id="content">hello</div>
     </div>
 
-    
 
-      <footer>Copyright ©2022 FG 2022 Team 4</footer>
+
+    <footer>Copyright ©2022 FG 2022 Team 4</footer>
 
 </body>
 
