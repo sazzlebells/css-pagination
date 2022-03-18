@@ -1,0 +1,35 @@
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color:orange;
+  color: white;
+  position: fixed;
+  padding-inline: 10px;
+  top: 0;
+  width: 100%;
+  display: inline;
+}
+
+.title{
+    float: left;
+}
+
+.right-nav{
+    float: right;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: tomato;
+}
